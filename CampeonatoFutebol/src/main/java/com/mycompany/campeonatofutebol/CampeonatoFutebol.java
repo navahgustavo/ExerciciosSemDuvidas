@@ -68,8 +68,6 @@ public class CampeonatoFutebol {
                     if(nomeJogador.equals(jogador[j].getNome())){
                         capitaoTime = jogador[j];
                         correto = true;
-                    } else {
-                        System.out.println("Jogador Inválido, informe outro nome.");
                     }
                 }
             }
